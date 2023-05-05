@@ -8,14 +8,14 @@ In development. Created for educational purposes.
 Git clone this repo locally.
 
 Go to Remix IDE at https://remix.ethereum.org/ and create a new file "Composition.sol". Copy-paste the code of the Composition.sol file from this repository. Deploy the contract on Sepolia Ethereum test network (or other network of your choice, but I did not test that and you test other networks at your own risk). Then go to Composition.json file of this repo and change the details at the end:
-
-###"networks": 
-###{
-###	"<here number of the used Ethereum network, 11155111 for Sepolia>": {
-###		"address": "<here enter number of your newly deployed contract>" 
-###	}
-###}
-
+```
+"networks": 
+{
+	"<here number of the used Ethereum network, 11155111 for Sepolia>": {
+		"address": "<here enter number of your newly deployed contract>" 
+	}
+}
+```
 Run: ###npm run build. 
 This will update the build file of this repo. (for more info see: "Getting Started with Create React App" below)
 
