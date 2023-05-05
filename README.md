@@ -1,6 +1,6 @@
 # stringNFT
 
-React app that connects to user's Metamask wallet and creates and ERC721 "Composition" token containing a given string.
+React app that connects to user's Metamask wallet and creates an ERC721 "Composition" token containing a given string.
 In development. Created for educational purposes.
 
 
