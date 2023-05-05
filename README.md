@@ -1,24 +1,26 @@
 # stringNFT
 
 React app that connects to user's Metamask wallet and creates an ERC721 "Composition" token containing a given string.
-In development. Created for educational purposes.
+In development. Created for educational purposes. In progress.
 
-# Setting up
+## Setting up
 
 Git clone this repo locally.
 
-Go to Remix IDE at https://remix.ethereum.org/ and create a new file "Composition.sol". Copy-paste the code of the Composition.sol file from this repository. Deploy the contract on Sepolia Ethereum test network (or other network of your choice, but I did not test that and you test other networks at your own risk). Then go to Composition.json file of this repo and change the details at the end:
+Go to Remix IDE at https://remix.ethereum.org/ and create a new file ```Composition.sol```. Copy-paste the code of the ```Composition.sol``` file from this repository. Deploy the contract on Sepolia Ethereum test network (I did not test on other networks, you can do it at your own risk). Then go to Composition.json file of this repo and change the details at the end:
 
+```
 "networks": 
 {
 	"<here number of the used Ethereum network, 11155111 for Sepolia>": {
 		"address": "<here enter number of your newly deployed contract>" 
 	}
 }
+```
+Run: ```npm run build```. 
+This will update the build file of this repo (for more info see: "Getting Started with Create React App" below).
 
-Run: npm run build. This will update the build file of this repo. (for more info see: "Getting Started with Create React App" below)
-
-Host this app somewhere, for instance, you can quickly host it on netlify.app. Create an account, drag and drop the build file and it's done.
+Host this app somewhere, for instance, you can quickly host it on ```netlify.app```. Create an account, drag and drop the build file and it's done.
 
 Go to your app at a given address from Netlify or other hosting page.
 
@@ -33,11 +35,11 @@ https://sepolia-faucet.pk910.de/
 
 Go to your app address, connect your Metamask wallet by clicking Connect Wallet. You will see your public hash key and your ETH balance available.
 
-Enter some text and click “Create composition” (you can of course enter a link to a hosted, preferrably decentralised file, for example on IPFS)
+Enter some text and click ```Create composition``` (you can of course enter a link to a hosted, preferrably decentralised file, for example on IPFS)
 
 Wait a little bit (even one minute) until you get an alert stating that you are now owner of the token.
 
-Go to https://sepolia.etherscan.io and enter your public hash key, find the latest transaction and go to "More details” -> "+ Click to Show more” -> "View input as" -> "UTF-8”. You will see your previously written text encoded in an NFT that you now own.
+Go to https://sepolia.etherscan.io and enter your public hash key, find the latest transaction and go to ```More details``` -> ```+ Click to Show more``` -> ```View input as``` -> ```UTF-8```. You will see your previously written text encoded in an NFT that you now own.
 
 You can add the NFT to your Metamask wallet manually, by providing it the contract number and token number of your NFT.
 
