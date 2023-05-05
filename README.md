@@ -1,3 +1,9 @@
+#stringNFT
+
+React app that connects to user's Metamask wallet and creates and ERC721 "Composition" token containing a given string.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
