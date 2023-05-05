@@ -1,4 +1,4 @@
-#stringNFT
+# stringNFT
 
 React app that connects to user's Metamask wallet and creates and ERC721 "Composition" token containing a given string.
 
