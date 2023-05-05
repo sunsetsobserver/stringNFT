@@ -1,7 +1,7 @@
 # stringNFT
 
 React app that connects to user's Metamask wallet and creates an ERC721 "Composition" token containing a given string.
-In development. Created for educational purposes.
+In development. Created for educational purposes. In progress.
 
 ## Setting up
 
@@ -31,7 +31,7 @@ Go to your new Metamask settings and allow visibility of test networks
 Change your network to Sepolia.
 
 Then, you need to get some free coins. You can mint some for free here (running this for 1 minute will be enough):
-```https://sepolia-faucet.pk910.de/```
+https://sepolia-faucet.pk910.de/
 
 Go to your app address, connect your Metamask wallet by clicking Connect Wallet. You will see your public hash key and your ETH balance available.
 
