@@ -7,7 +7,7 @@ In development. Created for educational purposes.
 
 Git clone this repo locally.
 
-Go to Remix IDE at ```https://remix.ethereum.org/``` and create a new file ```Composition.sol```. Copy-paste the code of the ```Composition.sol``` file from this repository. Deploy the contract on Sepolia Ethereum test network (I did not test on other networks, you can do it at your own risk). Then go to Composition.json file of this repo and change the details at the end:
+Go to Remix IDE at https://remix.ethereum.org/ and create a new file ```Composition.sol```. Copy-paste the code of the ```Composition.sol``` file from this repository. Deploy the contract on Sepolia Ethereum test network (I did not test on other networks, you can do it at your own risk). Then go to Composition.json file of this repo and change the details at the end:
 
 ```
 "networks": 
