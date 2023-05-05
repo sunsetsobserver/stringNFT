@@ -8,7 +8,7 @@ contract Composition is ERC721, ERC721URIStorage {
 
     event CompositionCreated(uint256 indexed tokenId, address indexed owner);
 
-    constructor() ERC721("Composition", "CMPT") {}
+    constructor() ERC721("Composition", "CMPT") {} // Give name to your token ex. "Composition" and short version ex. "CMPT"
 
     function createComposition(string memory _compositionData) public returns (uint256) {
         uint256 newItemId = _tokenIdCounter;
@@ -22,12 +22,9 @@ contract Composition is ERC721, ERC721URIStorage {
         return newItemId;
     }
 
-
-
     function _setTokenURI(uint256 tokenId, string memory _tokenURI) internal virtual override(ERC721URIStorage) {
     super._setTokenURI(tokenId, _tokenURI);
     }
-
 
     function _burn(uint256 tokenId) internal virtual override(ERC721, ERC721URIStorage) {
         super._burn(tokenId);
