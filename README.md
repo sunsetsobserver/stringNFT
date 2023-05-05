@@ -3,7 +3,7 @@
 React app that connects to user's Metamask wallet and creates an ERC721 "Composition" token containing a given string.
 In development. Created for educational purposes.
 
-# Setting up
+## Setting up
 
 Git clone this repo locally.
 
