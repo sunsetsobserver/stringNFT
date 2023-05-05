@@ -7,7 +7,7 @@ In development. Created for educational purposes.
 
 Git clone this repo locally.
 
-Go to Remix IDE at ```https://remix.ethereum.org/``` and create a new file ```Composition.sol```. Copy-paste the code of the ```Composition.sol``` file from this repository. Deploy the contract on Sepolia Ethereum test network (or other network of your choice, but I did not test that and you test other networks at your own risk). Then go to Composition.json file of this repo and change the details at the end:
+Go to Remix IDE at ```https://remix.ethereum.org/``` and create a new file ```Composition.sol```. Copy-paste the code of the ```Composition.sol``` file from this repository. Deploy the contract on Sepolia Ethereum test network (I did not test on other networks, you can do it at your own risk). Then go to Composition.json file of this repo and change the details at the end:
 
 ```
 "networks": 
@@ -18,7 +18,7 @@ Go to Remix IDE at ```https://remix.ethereum.org/``` and create a new file ```Co
 }
 ```
 Run: ```npm run build```. 
-This will update the build file of this repo. (for more info see: "Getting Started with Create React App" below)
+This will update the build file of this repo (for more info see: "Getting Started with Create React App" below).
 
 Host this app somewhere, for instance, you can quickly host it on ```netlify.app```. Create an account, drag and drop the build file and it's done.
 
